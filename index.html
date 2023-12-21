@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Jessa Gozun Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include the model-viewer scripts directly in the head section -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#home">
+    <img src="/asset/logo1.png" alt="" class="logo"></a>
+    <ul class="main-nav-list">
+      <li><a href="#home" class="main-nav-link">Home</a></li>
+      <li><a href="#work" class="main-nav-link">Work</a></li>
+      <li><a href="#contact" class="main-nav-link">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- Home page -->
+  <section id= "home" class="hero">
+    <!--<img src="./asset/webdev.png" alt="" class="hero-img"> -->
+    <img src="./asset/taylorbg.jpg" alt="" class="bg">
+    <div class="hero-description">
+      <h1 class="hero-title">Hi, I'm <span class="jessa">Jessa Gozun </span>!</h1>
+      <p class="hero-subheading"> Versatile professional, adept in both tech and creative realms.  </p>
+    
+      <!-- <img src="/asset/me.jpeg" alt="" class="my-pic"> -->
+      
+    </div>
+    <div class="hero-model">
+      <model-viewer
+        src="./models/desk.glb"
+        camera-controls
+        disable-pan
+        disable-zoom
+        interaction-prompt="none"
+        min-camera-orbit="auto 55deg auto"
+        max-camera-orbit="auto 92deg auto"
+        field-of-view="35.3deg"
+      ></model-viewer>
+    </div>
+  </section>
+  <section class="about-me">
+    <div class="about-me-description">
+      <p class="introduction"> ABOUT ME </p>
+      <h1 class="about-me-title"> Hello, World!</h1>
+      <p class="about-me-subheading"> I am currently pursuing a Senior High School diploma (Grade 12) with a focus on IT in Mobile App and Web Development in STI College Muñoz-EDSA. </p>
+      <p class="title-sub"> Here are the programming languages and tools I've learned, and I am still exploring. (There'll be more next time!)
+        : </p>
+    </div>
+    <div class="cards">
+      <div class="card animation">
+        <img src="./asset/html.png" alt="" class="html"> 
+        <p class="title"> HTML</p>
+      </div>
+      <div class="card animation">
+        <img src="./asset/css.png" alt="" class="css"> 
+        <p class="title"> CSS</p>
+      </div>
+      <div class="card animation">
+        <img src="./asset/java.png" alt="" class="java"> 
+        <p class="title"> Java </p>
+      </div>
+      <div class="card animation">
+        <img src="./asset/js.png" alt="" class="js"> 
+        <p class="title"> JavaScript </p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Work page -->
+  <section id="work" class="timeline-selection">
+  <div class="timeline-content">
+    <div class="heading-description">
+      <p class="timeline-title"> WHAT I HAVE DONE!</p>
+      <h1 class="timeline-subheading"> Experience!</h1>
+    </div>
+    <div class="timeline">
+      <div class="line"></div>
+      <div class="timeline-description">
+        <div class="mini-circle"></div>
+        <div class="content">
+          <h2 class="content-timeline-title"> Transcriptionist <br> 2021-2022 <br> Remotask </h2>
+          <p class="content-timeline-description"> Freelanced on Remotask, managing a spectrum of tasks and projects, encompasses 2D tasks, transcriptions, content moderation, annotations, and categorizations. Proficiently organized diverse products such as clothing, health and beauty items, jewelry, and other project variations on the platform.  </p>
+        </div>
+      </div>
+      <div class="timeline-description">
+        <div class="mini-circle"></div>
+        <div class="content">
+          <h2 class="content-timeline-title"> Labeler <br> March 2023- May 2023 <br> RYU Data 
+            Centre International </h2>
+          <p class="content-timeline-description"> Contributed expertise in labeling and annotating both 2D and 3D maps, ensuring accuracy and precision in data representation.  </p>
+        </div>
+      </div>
+      <div class="timeline-description">
+        <div class="mini-circle"></div>
+        <div class="content">
+          <h2 class="content-timeline-title"> Transcriptionist <br> August 2023-September 2023 <br> Data Connect </h2>
+          <p class="content-timeline-description"> Specialized in transcribing audio files and voice recordings pertaining to student loans, alongside call center agent-client interactions, showcasing expertise in accurately converting spoken content into written transcripts.  </p>
+        </div>
+      </div>
+      <div class="timeline-description">
+        <div class="mini-circle"></div>
+        <div class="content">
+          <h2 class="content-timeline-title"> HTML/CSS </h2>
+          <p class="content-timeline-description"> I have a foundational understanding of HTML and CSS, enabling me to create engaging web content. </p>
+        </div>
+      </div>
+    <div class="timeline-description">
+      <div class="mini-circle"></div>
+      <div class="content">
+        <h2 class="content-timeline-title"> Java </h2>
+        <p class="content-timeline-description"> I have basic Java knowledge and am steadily developing my skills, focusing on backend development and expanding my understanding of application building. </p>
+      </div>
+    </div>
+    <div class="timeline-description">
+        <div class="mini-circle"></div>
+        <div class="content">
+          <h2 class="content-timeline-title"> JavaScript </h2>
+          <p class="content-timeline-description"> I'm familiar with JavaScript and actively improving my skills to create interactive web content and enhance user experiences. </p>
+        </div>
+  </div>
+  </section>
+  <section class="projects">
+    <h1 class="project-title"> Artworks!
+    </h1>
+    <h2 class="project-description"> Beyond my programming and transcription work, I have a passion for creating art. </h2>
+    <p class="project-description">
+      Take a look at some of the masterpieces I've created! </p>
+    <div class="websites">
+      <div class="websites-pics">
+        <img src="/asset/taygrad.jpg" alt="" class="images">
+        <h2 class="website-title"> Digital Art</h2>
+        <p class="website-description"> This is a digital art I made in  Ibispaint using my fingers, starring Taylor Swift.</p>
+        <!--for website link-->
+        <a href="https://imgur.com/fqzApUa" target="_blank" class="btn">
+          <img src="https://imgur.com/fqzApUa" alt="" title=""/> See in Full </a>
+      </div>
+
+      <div class="websites-pics">
+        <img src="./asset/tayred.jpg" alt="" class="images">
+        <h2 class="website-title"> Digital Art </h2>
+        <p class="website-description"> This is also a digital art I made in  Ibispaint using my fingers, starring Taylor Swift. </p>
+        <!--for website link-->
+        <a href="https://imgur.com/6MtTWgG" target="_blank" class="btn">
+          <img src="https://imgur.com/6MtTWgG" alt="" title=""/> See in Full </a>
+      </div>
+
+      <div class="websites-pics">
+        <img src="./asset/tay1989.jpg" alt="" class="images">
+        <h2 class="website-title"> Grahite Portrait</h2>
+        <p class="website-description"> This is a potrait of Taylor Swift (again) by the use of graphite and charcoal pencils. </p>
+        <!--for website link-->
+        <a href="https://imgur.com/WZVGeJF" target="_blank" class="btn">
+          <img src="https://imgur.com/WZVGeJFG" alt="" title=""/> See in Full </a>
+        </div>
+
+        <div class="websites-pics2">
+          <img src="./asset/lexi.jpg" alt="" class="images">
+          <h2 class="website-title"> Graphite Portrait </h2>
+          <p class="website-description"> This is a portrait of my niece created using graphite medium. </p>
+          <!--for website link-->
+          <a href="https://imgur.com/j89EYCA" target="_blank" class="btn">
+            <img src="https://imgur.com/j89EYCA" alt="" title=""/> See in Full </a>
+        </div>
+
+        <div class="websites-pics2">
+          <img src="./asset/starry.jpg" alt="" class="images">
+          <h2 class="website-title"> Starry Night Painting </h2>
+          <p class="website-description"> This is a starry night painting with the used of watercolor medium. </p>
+          <!--for website link-->
+          <a href="https://imgur.com/6li1ZPs" target="_blank" class="btn">
+            <img src="https://imgur.com/6li1ZPs" alt="" title=""/> See in Full </a>
+        </div>
+    </div>
+
+  </section>
+    
+  <!-- final -->
+    <!-- Contact page -->
+  
+    <section id="contact" class="final">
+      <div class="contact-info">
+        <p id="contact-title" class="contact-infos">Contact Me!</p>
+        <p id="contact-description">Kindly use the following means of contact to get in touch with me:</p>
+            <p class="contact-infos"> 
+              <img src="./asset/gmail.png" alt="" class="icons">
+            Email: jessanazarenedietagozun@gmail.com
+            </p>
+            <p class="contact-infos">
+              <img src="./asset/linkedin.png" alt="" class="icons">
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/jessa-nazarene-gozun-1955801b2" target="_blank"> Jessa Nazarene Gozun </a>
+            </p>
+            <p class="contact-infos"> 
+              <img src="./asset/whatsapp.png" alt="" class="icons">
+            WhatsApp: +639972144062</p>
+      </div>
+    
+      <!-- Model viewer -->
+      <div class="robo">
+        <model-viewer
+          src="./models/robot_playground/scene.gltf"
+          camera-controls
+          disable-pan
+          disable-zoom
+          interaction-prompt="none"
+          field-of-view="10deg"
+          autoplay="experiment_Object_159">
+        </model-viewer>
+      </div>
+    </section>
+  
+  <script src="main.js"></script>
+</body>
+</html>
+<!-- Footer -->
+<footer class="footer">
+  <p class="footer-text">© Jessa Gozun 2023. All Rights Reserved.</p>
+</footer>
